@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Page Title</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="divs.css">
+    <script src>
+        function myFunction() {
+            const d = new Date();
+            hours = d.getHours();
+            minutes = d.getMinutes();
+            greeting = '';
+            if (hours >=18) {
+                greeting = "Good Evening";
+            } else if (hour >=12) {
+                greeting = "Good Afternoon";
+            } else {
+                greeting = "Good Morning";
+            }
+            document.getElementById("time").innerHTML = HOURS + '' + MINUTES;
+            document.getElementById("greet").innerHTML = greeting;
+        }
+        
+
+
+
+
+        
+    </script>
+</head>
+
+<body>
+    <div id="Container">
+        <div id="main">
+
+        </div>
+    </div>
+
+        <p>Created by Femi </p>
+
+    </footer>
+
+
+    <div id="main">
+    <h2> What timke is it</h2>
+    <p id="time"> THIS IS WHERE THE TIME OF DAY WILL BE</p>
+    <P id="greet">THIS is where gretting eill be  </p>
+        <h3> Wondering what time is</h3>
+        <button type="button" onclick="myFunction()"> Click me</button>
+</body>
+
+</html>

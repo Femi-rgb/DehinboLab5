@@ -1,0 +1,69 @@
+Create a DAD FOR A Tutoring service
+The service is asking you to create a new database for their app, where they help conect learners with tutors
+
+For Students
+
+
+Name
+email
+password
+Program
+Address
+Telephone
+Category - Tech/Sciencee
+Course id
+Tutor id
+session
+Price
+Profile Picture
+Date started
+
+
+
+For Tutors
+
+
+Name
+Email
+Program
+Telelphone
+Adress
+Course id
+Category- Tech/science
+Student id
+price 
+Profile Picture
+Date started
+
+
+
+
+
+
+BOTH STUDENTS AND Tutors
+
+Name
+Email
+Program
+Category- Tech/science
+Course id
+Price of the session
+Profile Picture
+
+
+
+Enrollment Table 
+
+DATE 
+Course id
+student id
+
+
+
+
+
+
+
+
+
+
